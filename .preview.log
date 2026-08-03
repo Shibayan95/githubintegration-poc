@@ -1,0 +1,491 @@
+$ vite dev --port 5173 --host "0.0.0.0" --port "5173" --config ve.vite.config.ts
+Warning: Route file "/root/app/src/routes/_protected/__tests__/index.test.tsx" does not export a Route. This file will not be included in the route tree.
+
+If this file is not intended to be a route, you can exclude it using one of these options:
+  1. Rename the file to "/root/app/src/routes/_protected/__tests__/-index.test.tsx" (prefix with "-")
+  2. Use 'routeFileIgnorePattern' in your config to match this file
+
+Current configuration:
+  routeFileIgnorePrefix: "-"
+  routeFileIgnorePattern: undefined
+Warning: Route file "/root/app/src/routes/__tests__/root.test.tsx" does not export a Route. This file will not be included in the route tree.
+
+If this file is not intended to be a route, you can exclude it using one of these options:
+  1. Rename the file to "/root/app/src/routes/__tests__/-root.test.tsx" (prefix with "-")
+  2. Use 'routeFileIgnorePattern' in your config to match this file
+
+Current configuration:
+  routeFileIgnorePrefix: "-"
+  routeFileIgnorePattern: undefined
+
+  VITE v7.3.6  ready in 1659 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: http://172.20.132.230:5173/
+8:16:47 PM [vite] .env.local changed, restarting server...
+8:16:47 PM [vite] .env.local changed, restarting server...
+Warning: Route file "/root/app/src/routes/__tests__/root.test.tsx" does not export a Route. This file will not be included in the route tree.
+
+If this file is not intended to be a route, you can exclude it using one of these options:
+  1. Rename the file to "/root/app/src/routes/__tests__/-root.test.tsx" (prefix with "-")
+  2. Use 'routeFileIgnorePattern' in your config to match this file
+
+Current configuration:
+  routeFileIgnorePrefix: "-"
+  routeFileIgnorePattern: undefined
+Warning: Route file "/root/app/src/routes/_protected/__tests__/index.test.tsx" does not export a Route. This file will not be included in the route tree.
+
+If this file is not intended to be a route, you can exclude it using one of these options:
+  1. Rename the file to "/root/app/src/routes/_protected/__tests__/-index.test.tsx" (prefix with "-")
+  2. Use 'routeFileIgnorePattern' in your config to match this file
+
+Current configuration:
+  routeFileIgnorePrefix: "-"
+  routeFileIgnorePattern: undefined
+8:16:47 PM [vite] server restarted.
+8:16:52 PM [vite] changed tsconfig file detected: /root/app/tsconfig.json - Clearing cache and forcing full-reload to ensure TypeScript is compiled with updated config values.
+8:16:52 PM [vite] vite.config.ts changed, restarting server...
+Warning: Route file "/root/app/src/routes/_protected/__tests__/index.test.tsx" does not export a Route. This file will not be included in the route tree.
+
+If this file is not intended to be a route, you can exclude it using one of these options:
+  1. Rename the file to "/root/app/src/routes/_protected/__tests__/-index.test.tsx" (prefix with "-")
+  2. Use 'routeFileIgnorePattern' in your config to match this file
+
+Current configuration:
+  routeFileIgnorePrefix: "-"
+  routeFileIgnorePattern: undefined
+Warning: Route file "/root/app/src/routes/__tests__/root.test.tsx" does not export a Route. This file will not be included in the route tree.
+
+If this file is not intended to be a route, you can exclude it using one of these options:
+  1. Rename the file to "/root/app/src/routes/__tests__/-root.test.tsx" (prefix with "-")
+  2. Use 'routeFileIgnorePattern' in your config to match this file
+
+Current configuration:
+  routeFileIgnorePrefix: "-"
+  routeFileIgnorePattern: undefined
+Warning: Route file "/root/app/src/routes/__tests__/root.test.tsx" does not export a Route. This file will not be included in the route tree.
+
+If this file is not intended to be a route, you can exclude it using one of these options:
+  1. Rename the file to "/root/app/src/routes/__tests__/-root.test.tsx" (prefix with "-")
+  2. Use 'routeFileIgnorePattern' in your config to match this file
+
+Current configuration:
+  routeFileIgnorePrefix: "-"
+  routeFileIgnorePattern: undefined
+Warning: Route file "/root/app/src/routes/_protected/__tests__/index.test.tsx" does not export a Route. This file will not be included in the route tree.
+
+If this file is not intended to be a route, you can exclude it using one of these options:
+  1. Rename the file to "/root/app/src/routes/_protected/__tests__/-index.test.tsx" (prefix with "-")
+  2. Use 'routeFileIgnorePattern' in your config to match this file
+
+Current configuration:
+  routeFileIgnorePrefix: "-"
+  routeFileIgnorePattern: undefined
+Warning: Route file "/root/app/src/routes/__tests__/root.test.tsx" does not export a Route. This file will not be included in the route tree.
+
+If this file is not intended to be a route, you can exclude it using one of these options:
+  1. Rename the file to "/root/app/src/routes/__tests__/-root.test.tsx" (prefix with "-")
+  2. Use 'routeFileIgnorePattern' in your config to match this file
+
+Current configuration:
+  routeFileIgnorePrefix: "-"
+  routeFileIgnorePattern: undefined
+Warning: Route file "/root/app/src/routes/_protected/__tests__/index.test.tsx" does not export a Route. This file will not be included in the route tree.
+
+If this file is not intended to be a route, you can exclude it using one of these options:
+  1. Rename the file to "/root/app/src/routes/_protected/__tests__/-index.test.tsx" (prefix with "-")
+  2. Use 'routeFileIgnorePattern' in your config to match this file
+
+Current configuration:
+  routeFileIgnorePrefix: "-"
+  routeFileIgnorePattern: undefined
+8:16:52 PM [vite] (client) Re-optimizing dependencies because lockfile has changed
+8:16:52 PM [vite] server restarted.
+(!) Failed to run dependency scan. Skipping dependency pre-bundling. Error: The following dependencies are imported but could not be resolved:
+
+  @tabler/icons-react (imported by /root/app/src/components/ui/sheet.tsx)
+
+Are they installed?
+    at file:///root/app/node_modules/vite/dist/node/chunks/config.js:31983:33
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///root/app/node_modules/vite/dist/node/chunks/config.js:34191:15
+Error: Cannot find module '@tabler/icons-react' imported from '/root/app/src/components/ui/sonner.tsx'
+    at fetchModule (file:///root/app/node_modules/vite/dist/node/chunks/config.js:34060:34)
+    ... 11 lines matching cause stack trace ...
+    at MessagePort.<anonymous> (node:internal/per_context/messageport:23:28) {
+  cause: Error: Cannot find module '@tabler/icons-react' imported from '/root/app/src/components/ui/sonner.tsx'
+      at fetchModule (file:///root/app/node_modules/vite/dist/node/chunks/config.js:34060:34)
+      at FetchableDevEnvironment.fetchModule (file:///root/app/node_modules/vite/dist/node/chunks/config.js:34912:10)
+      at FetchableDevEnvironment.fetchModule (file:///root/app/node_modules/nitro/dist/vite.mjs:196:16)
+      at fetchModule (file:///root/app/node_modules/vite/dist/node/chunks/config.js:34870:17)
+      at handleInvoke (file:///root/app/node_modules/vite/dist/node/chunks/config.js:25913:27)
+      at listenerForInvokeHandler (file:///root/app/node_modules/vite/dist/node/chunks/config.js:25968:19)
+      at listener (file:///root/app/node_modules/env-runner/dist/vite.mjs:11:89)
+      at NodeWorkerEnvRunner._handleMessage (file:///root/app/node_modules/env-runner/dist/_chunks/common-base-runner.mjs:131:50)
+      at Worker.<anonymous> (file:///root/app/node_modules/env-runner/dist/_chunks/node-worker-runner.mjs:55:9)
+      at Worker.emit (node:events:524:28)
+      at MessagePort.<anonymous> (node:internal/worker:268:53)
+      at [nodejs.internal.kHybridDispatch] (node:internal/event_target:831:20)
+      at MessagePort.<anonymous> (node:internal/per_context/messageport:23:28) {
+    code: 'ERR_MODULE_NOT_FOUND',
+    runnerError: Error: RunnerError
+        at reviveInvokeError (file:///root/app/node_modules/vite/dist/node/module-runner.js:476:64)
+        at Object.invoke (file:///root/app/node_modules/vite/dist/node/module-runner.js:549:11)
+        at ModuleRunner.getModuleInformation (file:///root/app/node_modules/vite/dist/node/module-runner.js:1086:7)
+        at request (file:///root/app/node_modules/vite/dist/node/module-runner.js:1103:83)
+        at /root/app/src/components/ui/sonner.tsx:3:1
+        at ESModulesEvaluator.runInlinedModule (file:///root/app/node_modules/vite/dist/node/module-runner.js:913:3)
+        at ModuleRunner.directRequest (file:///root/app/node_modules/vite/dist/node/module-runner.js:1146:59)
+        at ModuleRunner.cachedRequest (file:///root/app/node_modules/vite/dist/node/module-runner.js:1053:73)
+        at /root/app/src/routes/__root.tsx:4:1
+        at ESModulesEvaluator.runInlinedModule (file:///root/app/node_modules/vite/dist/node/module-runner.js:913:3)
+  },
+  status: 500,
+  statusText: undefined,
+  headers: undefined,
+  data: undefined,
+  body: undefined,
+  unhandled: true
+}
+Error: Cannot find module '@tabler/icons-react' imported from '/root/app/src/components/ui/sonner.tsx'
+    at fetchModule (file:///root/app/node_modules/vite/dist/node/chunks/config.js:34060:34)
+    ... 11 lines matching cause stack trace ...
+    at MessagePort.<anonymous> (node:internal/per_context/messageport:23:28) {
+  cause: Error: Cannot find module '@tabler/icons-react' imported from '/root/app/src/components/ui/sonner.tsx'
+      at fetchModule (file:///root/app/node_modules/vite/dist/node/chunks/config.js:34060:34)
+      at FetchableDevEnvironment.fetchModule (file:///root/app/node_modules/vite/dist/node/chunks/config.js:34912:10)
+      at FetchableDevEnvironment.fetchModule (file:///root/app/node_modules/nitro/dist/vite.mjs:196:16)
+      at fetchModule (file:///root/app/node_modules/vite/dist/node/chunks/config.js:34870:17)
+      at handleInvoke (file:///root/app/node_modules/vite/dist/node/chunks/config.js:25913:27)
+      at listenerForInvokeHandler (file:///root/app/node_modules/vite/dist/node/chunks/config.js:25968:19)
+      at listener (file:///root/app/node_modules/env-runner/dist/vite.mjs:11:89)
+      at NodeWorkerEnvRunner._handleMessage (file:///root/app/node_modules/env-runner/dist/_chunks/common-base-runner.mjs:131:50)
+      at Worker.<anonymous> (file:///root/app/node_modules/env-runner/dist/_chunks/node-worker-runner.mjs:55:9)
+      at Worker.emit (node:events:524:28)
+      at MessagePort.<anonymous> (node:internal/worker:268:53)
+      at [nodejs.internal.kHybridDispatch] (node:internal/event_target:831:20)
+      at MessagePort.<anonymous> (node:internal/per_context/messageport:23:28) {
+    code: 'ERR_MODULE_NOT_FOUND',
+    runnerError: Error: RunnerError
+        at reviveInvokeError (file:///root/app/node_modules/vite/dist/node/module-runner.js:476:64)
+        at Object.invoke (file:///root/app/node_modules/vite/dist/node/module-runner.js:549:11)
+        at ModuleRunner.getModuleInformation (file:///root/app/node_modules/vite/dist/node/module-runner.js:1086:7)
+        at request (file:///root/app/node_modules/vite/dist/node/module-runner.js:1103:83)
+        at /root/app/src/components/ui/sonner.tsx:3:1
+        at ESModulesEvaluator.runInlinedModule (file:///root/app/node_modules/vite/dist/node/module-runner.js:913:3)
+        at ModuleRunner.directRequest (file:///root/app/node_modules/vite/dist/node/module-runner.js:1146:59)
+        at ModuleRunner.cachedRequest (file:///root/app/node_modules/vite/dist/node/module-runner.js:1053:73)
+        at /root/app/src/routes/__root.tsx:4:1
+        at ESModulesEvaluator.runInlinedModule (file:///root/app/node_modules/vite/dist/node/module-runner.js:913:3)
+  },
+  status: 500,
+  statusText: undefined,
+  headers: undefined,
+  data: undefined,
+  body: undefined,
+  unhandled: true
+}
+Error: Cannot find module '@tabler/icons-react' imported from '/root/app/src/components/ui/sonner.tsx'
+    at fetchModule (file:///root/app/node_modules/vite/dist/node/chunks/config.js:34060:34)
+    ... 11 lines matching cause stack trace ...
+    at MessagePort.<anonymous> (node:internal/per_context/messageport:23:28) {
+  cause: Error: Cannot find module '@tabler/icons-react' imported from '/root/app/src/components/ui/sonner.tsx'
+      at fetchModule (file:///root/app/node_modules/vite/dist/node/chunks/config.js:34060:34)
+      at FetchableDevEnvironment.fetchModule (file:///root/app/node_modules/vite/dist/node/chunks/config.js:34912:10)
+      at FetchableDevEnvironment.fetchModule (file:///root/app/node_modules/nitro/dist/vite.mjs:196:16)
+      at fetchModule (file:///root/app/node_modules/vite/dist/node/chunks/config.js:34870:17)
+      at handleInvoke (file:///root/app/node_modules/vite/dist/node/chunks/config.js:25913:27)
+      at listenerForInvokeHandler (file:///root/app/node_modules/vite/dist/node/chunks/config.js:25968:19)
+      at listener (file:///root/app/node_modules/env-runner/dist/vite.mjs:11:89)
+      at NodeWorkerEnvRunner._handleMessage (file:///root/app/node_modules/env-runner/dist/_chunks/common-base-runner.mjs:131:50)
+      at Worker.<anonymous> (file:///root/app/node_modules/env-runner/dist/_chunks/node-worker-runner.mjs:55:9)
+      at Worker.emit (node:events:524:28)
+      at MessagePort.<anonymous> (node:internal/worker:268:53)
+      at [nodejs.internal.kHybridDispatch] (node:internal/event_target:831:20)
+      at MessagePort.<anonymous> (node:internal/per_context/messageport:23:28) {
+    code: 'ERR_MODULE_NOT_FOUND',
+    runnerError: Error: RunnerError
+        at reviveInvokeError (file:///root/app/node_modules/vite/dist/node/module-runner.js:476:64)
+        at Object.invoke (file:///root/app/node_modules/vite/dist/node/module-runner.js:549:11)
+        at ModuleRunner.getModuleInformation (file:///root/app/node_modules/vite/dist/node/module-runner.js:1086:7)
+        at request (file:///root/app/node_modules/vite/dist/node/module-runner.js:1103:83)
+        at /root/app/src/components/ui/sonner.tsx:3:1
+        at ESModulesEvaluator.runInlinedModule (file:///root/app/node_modules/vite/dist/node/module-runner.js:913:3)
+        at ModuleRunner.directRequest (file:///root/app/node_modules/vite/dist/node/module-runner.js:1146:59)
+        at ModuleRunner.cachedRequest (file:///root/app/node_modules/vite/dist/node/module-runner.js:1053:73)
+        at /root/app/src/routes/__root.tsx:4:1
+        at ESModulesEvaluator.runInlinedModule (file:///root/app/node_modules/vite/dist/node/module-runner.js:913:3)
+  },
+  status: 500,
+  statusText: undefined,
+  headers: undefined,
+  data: undefined,
+  body: undefined,
+  unhandled: true
+}
+Error: Cannot find module '@tabler/icons-react' imported from '/root/app/src/components/ui/sonner.tsx'
+    at fetchModule (file:///root/app/node_modules/vite/dist/node/chunks/config.js:34060:34)
+    ... 11 lines matching cause stack trace ...
+    at MessagePort.<anonymous> (node:internal/per_context/messageport:23:28) {
+  cause: Error: Cannot find module '@tabler/icons-react' imported from '/root/app/src/components/ui/sonner.tsx'
+      at fetchModule (file:///root/app/node_modules/vite/dist/node/chunks/config.js:34060:34)
+      at FetchableDevEnvironment.fetchModule (file:///root/app/node_modules/vite/dist/node/chunks/config.js:34912:10)
+      at FetchableDevEnvironment.fetchModule (file:///root/app/node_modules/nitro/dist/vite.mjs:196:16)
+      at fetchModule (file:///root/app/node_modules/vite/dist/node/chunks/config.js:34870:17)
+      at handleInvoke (file:///root/app/node_modules/vite/dist/node/chunks/config.js:25913:27)
+      at listenerForInvokeHandler (file:///root/app/node_modules/vite/dist/node/chunks/config.js:25968:19)
+      at listener (file:///root/app/node_modules/env-runner/dist/vite.mjs:11:89)
+      at NodeWorkerEnvRunner._handleMessage (file:///root/app/node_modules/env-runner/dist/_chunks/common-base-runner.mjs:131:50)
+      at Worker.<anonymous> (file:///root/app/node_modules/env-runner/dist/_chunks/node-worker-runner.mjs:55:9)
+      at Worker.emit (node:events:524:28)
+      at MessagePort.<anonymous> (node:internal/worker:268:53)
+      at [nodejs.internal.kHybridDispatch] (node:internal/event_target:831:20)
+      at MessagePort.<anonymous> (node:internal/per_context/messageport:23:28) {
+    code: 'ERR_MODULE_NOT_FOUND',
+    runnerError: Error: RunnerError
+        at reviveInvokeError (file:///root/app/node_modules/vite/dist/node/module-runner.js:476:64)
+        at Object.invoke (file:///root/app/node_modules/vite/dist/node/module-runner.js:549:11)
+        at ModuleRunner.getModuleInformation (file:///root/app/node_modules/vite/dist/node/module-runner.js:1086:7)
+        at request (file:///root/app/node_modules/vite/dist/node/module-runner.js:1103:83)
+        at /root/app/src/components/ui/sonner.tsx:3:1
+        at ESModulesEvaluator.runInlinedModule (file:///root/app/node_modules/vite/dist/node/module-runner.js:913:3)
+        at ModuleRunner.directRequest (file:///root/app/node_modules/vite/dist/node/module-runner.js:1146:59)
+        at ModuleRunner.cachedRequest (file:///root/app/node_modules/vite/dist/node/module-runner.js:1053:73)
+        at /root/app/src/routes/__root.tsx:4:1
+        at ESModulesEvaluator.runInlinedModule (file:///root/app/node_modules/vite/dist/node/module-runner.js:913:3)
+  },
+  status: 500,
+  statusText: undefined,
+  headers: undefined,
+  data: undefined,
+  body: undefined,
+  unhandled: true
+}
+Error: Cannot find module '@tabler/icons-react' imported from '/root/app/src/components/ui/sonner.tsx'
+    at fetchModule (file:///root/app/node_modules/vite/dist/node/chunks/config.js:34060:34)
+    ... 11 lines matching cause stack trace ...
+    at MessagePort.<anonymous> (node:internal/per_context/messageport:23:28) {
+  cause: Error: Cannot find module '@tabler/icons-react' imported from '/root/app/src/components/ui/sonner.tsx'
+      at fetchModule (file:///root/app/node_modules/vite/dist/node/chunks/config.js:34060:34)
+      at FetchableDevEnvironment.fetchModule (file:///root/app/node_modules/vite/dist/node/chunks/config.js:34912:10)
+      at FetchableDevEnvironment.fetchModule (file:///root/app/node_modules/nitro/dist/vite.mjs:196:16)
+      at fetchModule (file:///root/app/node_modules/vite/dist/node/chunks/config.js:34870:17)
+      at handleInvoke (file:///root/app/node_modules/vite/dist/node/chunks/config.js:25913:27)
+      at listenerForInvokeHandler (file:///root/app/node_modules/vite/dist/node/chunks/config.js:25968:19)
+      at listener (file:///root/app/node_modules/env-runner/dist/vite.mjs:11:89)
+      at NodeWorkerEnvRunner._handleMessage (file:///root/app/node_modules/env-runner/dist/_chunks/common-base-runner.mjs:131:50)
+      at Worker.<anonymous> (file:///root/app/node_modules/env-runner/dist/_chunks/node-worker-runner.mjs:55:9)
+      at Worker.emit (node:events:524:28)
+      at MessagePort.<anonymous> (node:internal/worker:268:53)
+      at [nodejs.internal.kHybridDispatch] (node:internal/event_target:831:20)
+      at MessagePort.<anonymous> (node:internal/per_context/messageport:23:28) {
+    code: 'ERR_MODULE_NOT_FOUND',
+    runnerError: Error: RunnerError
+        at reviveInvokeError (file:///root/app/node_modules/vite/dist/node/module-runner.js:476:64)
+        at Object.invoke (file:///root/app/node_modules/vite/dist/node/module-runner.js:549:11)
+        at ModuleRunner.getModuleInformation (file:///root/app/node_modules/vite/dist/node/module-runner.js:1086:7)
+        at request (file:///root/app/node_modules/vite/dist/node/module-runner.js:1103:83)
+        at /root/app/src/components/ui/sonner.tsx:3:1
+        at ESModulesEvaluator.runInlinedModule (file:///root/app/node_modules/vite/dist/node/module-runner.js:913:3)
+        at ModuleRunner.directRequest (file:///root/app/node_modules/vite/dist/node/module-runner.js:1146:59)
+        at ModuleRunner.cachedRequest (file:///root/app/node_modules/vite/dist/node/module-runner.js:1053:73)
+        at /root/app/src/routes/__root.tsx:4:1
+        at ESModulesEvaluator.runInlinedModule (file:///root/app/node_modules/vite/dist/node/module-runner.js:913:3)
+  },
+  status: 500,
+  statusText: undefined,
+  headers: undefined,
+  data: undefined,
+  body: undefined,
+  unhandled: true
+}
+Error: Cannot find module '@tabler/icons-react' imported from '/root/app/src/components/ui/sonner.tsx'
+    at fetchModule (file:///root/app/node_modules/vite/dist/node/chunks/config.js:34060:34)
+    ... 11 lines matching cause stack trace ...
+    at MessagePort.<anonymous> (node:internal/per_context/messageport:23:28) {
+  cause: Error: Cannot find module '@tabler/icons-react' imported from '/root/app/src/components/ui/sonner.tsx'
+      at fetchModule (file:///root/app/node_modules/vite/dist/node/chunks/config.js:34060:34)
+      at FetchableDevEnvironment.fetchModule (file:///root/app/node_modules/vite/dist/node/chunks/config.js:34912:10)
+      at FetchableDevEnvironment.fetchModule (file:///root/app/node_modules/nitro/dist/vite.mjs:196:16)
+      at fetchModule (file:///root/app/node_modules/vite/dist/node/chunks/config.js:34870:17)
+      at handleInvoke (file:///root/app/node_modules/vite/dist/node/chunks/config.js:25913:27)
+      at listenerForInvokeHandler (file:///root/app/node_modules/vite/dist/node/chunks/config.js:25968:19)
+      at listener (file:///root/app/node_modules/env-runner/dist/vite.mjs:11:89)
+      at NodeWorkerEnvRunner._handleMessage (file:///root/app/node_modules/env-runner/dist/_chunks/common-base-runner.mjs:131:50)
+      at Worker.<anonymous> (file:///root/app/node_modules/env-runner/dist/_chunks/node-worker-runner.mjs:55:9)
+      at Worker.emit (node:events:524:28)
+      at MessagePort.<anonymous> (node:internal/worker:268:53)
+      at [nodejs.internal.kHybridDispatch] (node:internal/event_target:831:20)
+      at MessagePort.<anonymous> (node:internal/per_context/messageport:23:28) {
+    code: 'ERR_MODULE_NOT_FOUND',
+    runnerError: Error: RunnerError
+        at reviveInvokeError (file:///root/app/node_modules/vite/dist/node/module-runner.js:476:64)
+        at Object.invoke (file:///root/app/node_modules/vite/dist/node/module-runner.js:549:11)
+        at ModuleRunner.getModuleInformation (file:///root/app/node_modules/vite/dist/node/module-runner.js:1086:7)
+        at request (file:///root/app/node_modules/vite/dist/node/module-runner.js:1103:83)
+        at /root/app/src/components/ui/sonner.tsx:3:1
+        at ESModulesEvaluator.runInlinedModule (file:///root/app/node_modules/vite/dist/node/module-runner.js:913:3)
+        at ModuleRunner.directRequest (file:///root/app/node_modules/vite/dist/node/module-runner.js:1146:59)
+        at ModuleRunner.cachedRequest (file:///root/app/node_modules/vite/dist/node/module-runner.js:1053:73)
+        at /root/app/src/routes/__root.tsx:4:1
+        at ESModulesEvaluator.runInlinedModule (file:///root/app/node_modules/vite/dist/node/module-runner.js:913:3)
+  },
+  status: 500,
+  statusText: undefined,
+  headers: undefined,
+  data: undefined,
+  body: undefined,
+  unhandled: true
+}
+Error: Cannot find module '@tabler/icons-react' imported from '/root/app/src/components/ui/sonner.tsx'
+    at fetchModule (file:///root/app/node_modules/vite/dist/node/chunks/config.js:34060:34)
+    ... 11 lines matching cause stack trace ...
+    at MessagePort.<anonymous> (node:internal/per_context/messageport:23:28) {
+  cause: Error: Cannot find module '@tabler/icons-react' imported from '/root/app/src/components/ui/sonner.tsx'
+      at fetchModule (file:///root/app/node_modules/vite/dist/node/chunks/config.js:34060:34)
+      at FetchableDevEnvironment.fetchModule (file:///root/app/node_modules/vite/dist/node/chunks/config.js:34912:10)
+      at FetchableDevEnvironment.fetchModule (file:///root/app/node_modules/nitro/dist/vite.mjs:196:16)
+      at fetchModule (file:///root/app/node_modules/vite/dist/node/chunks/config.js:34870:17)
+      at handleInvoke (file:///root/app/node_modules/vite/dist/node/chunks/config.js:25913:27)
+      at listenerForInvokeHandler (file:///root/app/node_modules/vite/dist/node/chunks/config.js:25968:19)
+      at listener (file:///root/app/node_modules/env-runner/dist/vite.mjs:11:89)
+      at NodeWorkerEnvRunner._handleMessage (file:///root/app/node_modules/env-runner/dist/_chunks/common-base-runner.mjs:131:50)
+      at Worker.<anonymous> (file:///root/app/node_modules/env-runner/dist/_chunks/node-worker-runner.mjs:55:9)
+      at Worker.emit (node:events:524:28)
+      at MessagePort.<anonymous> (node:internal/worker:268:53)
+      at [nodejs.internal.kHybridDispatch] (node:internal/event_target:831:20)
+      at MessagePort.<anonymous> (node:internal/per_context/messageport:23:28) {
+    code: 'ERR_MODULE_NOT_FOUND',
+    runnerError: Error: RunnerError
+        at reviveInvokeError (file:///root/app/node_modules/vite/dist/node/module-runner.js:476:64)
+        at Object.invoke (file:///root/app/node_modules/vite/dist/node/module-runner.js:549:11)
+        at ModuleRunner.getModuleInformation (file:///root/app/node_modules/vite/dist/node/module-runner.js:1086:7)
+        at request (file:///root/app/node_modules/vite/dist/node/module-runner.js:1103:83)
+        at /root/app/src/components/ui/sonner.tsx:3:1
+        at ESModulesEvaluator.runInlinedModule (file:///root/app/node_modules/vite/dist/node/module-runner.js:913:3)
+        at ModuleRunner.directRequest (file:///root/app/node_modules/vite/dist/node/module-runner.js:1146:59)
+        at ModuleRunner.cachedRequest (file:///root/app/node_modules/vite/dist/node/module-runner.js:1053:73)
+        at /root/app/src/routes/__root.tsx:4:1
+        at ESModulesEvaluator.runInlinedModule (file:///root/app/node_modules/vite/dist/node/module-runner.js:913:3)
+  },
+  status: 500,
+  statusText: undefined,
+  headers: undefined,
+  data: undefined,
+  body: undefined,
+  unhandled: true
+}
+Error: Cannot find module '@tabler/icons-react' imported from '/root/app/src/components/ui/sonner.tsx'
+    at fetchModule (file:///root/app/node_modules/vite/dist/node/chunks/config.js:34060:34)
+    ... 11 lines matching cause stack trace ...
+    at MessagePort.<anonymous> (node:internal/per_context/messageport:23:28) {
+  cause: Error: Cannot find module '@tabler/icons-react' imported from '/root/app/src/components/ui/sonner.tsx'
+      at fetchModule (file:///root/app/node_modules/vite/dist/node/chunks/config.js:34060:34)
+      at FetchableDevEnvironment.fetchModule (file:///root/app/node_modules/vite/dist/node/chunks/config.js:34912:10)
+      at FetchableDevEnvironment.fetchModule (file:///root/app/node_modules/nitro/dist/vite.mjs:196:16)
+      at fetchModule (file:///root/app/node_modules/vite/dist/node/chunks/config.js:34870:17)
+      at handleInvoke (file:///root/app/node_modules/vite/dist/node/chunks/config.js:25913:27)
+      at listenerForInvokeHandler (file:///root/app/node_modules/vite/dist/node/chunks/config.js:25968:19)
+      at listener (file:///root/app/node_modules/env-runner/dist/vite.mjs:11:89)
+      at NodeWorkerEnvRunner._handleMessage (file:///root/app/node_modules/env-runner/dist/_chunks/common-base-runner.mjs:131:50)
+      at Worker.<anonymous> (file:///root/app/node_modules/env-runner/dist/_chunks/node-worker-runner.mjs:55:9)
+      at Worker.emit (node:events:524:28)
+      at MessagePort.<anonymous> (node:internal/worker:268:53)
+      at [nodejs.internal.kHybridDispatch] (node:internal/event_target:831:20)
+      at MessagePort.<anonymous> (node:internal/per_context/messageport:23:28) {
+    code: 'ERR_MODULE_NOT_FOUND',
+    runnerError: Error: RunnerError
+        at reviveInvokeError (file:///root/app/node_modules/vite/dist/node/module-runner.js:476:64)
+        at Object.invoke (file:///root/app/node_modules/vite/dist/node/module-runner.js:549:11)
+        at ModuleRunner.getModuleInformation (file:///root/app/node_modules/vite/dist/node/module-runner.js:1086:7)
+        at request (file:///root/app/node_modules/vite/dist/node/module-runner.js:1103:83)
+        at /root/app/src/components/ui/sonner.tsx:3:1
+        at ESModulesEvaluator.runInlinedModule (file:///root/app/node_modules/vite/dist/node/module-runner.js:913:3)
+        at ModuleRunner.directRequest (file:///root/app/node_modules/vite/dist/node/module-runner.js:1146:59)
+        at ModuleRunner.cachedRequest (file:///root/app/node_modules/vite/dist/node/module-runner.js:1053:73)
+        at /root/app/src/routes/__root.tsx:4:1
+        at ESModulesEvaluator.runInlinedModule (file:///root/app/node_modules/vite/dist/node/module-runner.js:913:3)
+  },
+  status: 500,
+  statusText: undefined,
+  headers: undefined,
+  data: undefined,
+  body: undefined,
+  unhandled: true
+}
+Error: Cannot find module '@tabler/icons-react' imported from '/root/app/src/components/ui/sonner.tsx'
+    at fetchModule (file:///root/app/node_modules/vite/dist/node/chunks/config.js:34060:34)
+    ... 11 lines matching cause stack trace ...
+    at MessagePort.<anonymous> (node:internal/per_context/messageport:23:28) {
+  cause: Error: Cannot find module '@tabler/icons-react' imported from '/root/app/src/components/ui/sonner.tsx'
+      at fetchModule (file:///root/app/node_modules/vite/dist/node/chunks/config.js:34060:34)
+      at FetchableDevEnvironment.fetchModule (file:///root/app/node_modules/vite/dist/node/chunks/config.js:34912:10)
+      at FetchableDevEnvironment.fetchModule (file:///root/app/node_modules/nitro/dist/vite.mjs:196:16)
+      at fetchModule (file:///root/app/node_modules/vite/dist/node/chunks/config.js:34870:17)
+      at handleInvoke (file:///root/app/node_modules/vite/dist/node/chunks/config.js:25913:27)
+      at listenerForInvokeHandler (file:///root/app/node_modules/vite/dist/node/chunks/config.js:25968:19)
+      at listener (file:///root/app/node_modules/env-runner/dist/vite.mjs:11:89)
+      at NodeWorkerEnvRunner._handleMessage (file:///root/app/node_modules/env-runner/dist/_chunks/common-base-runner.mjs:131:50)
+      at Worker.<anonymous> (file:///root/app/node_modules/env-runner/dist/_chunks/node-worker-runner.mjs:55:9)
+      at Worker.emit (node:events:524:28)
+      at MessagePort.<anonymous> (node:internal/worker:268:53)
+      at [nodejs.internal.kHybridDispatch] (node:internal/event_target:831:20)
+      at MessagePort.<anonymous> (node:internal/per_context/messageport:23:28) {
+    code: 'ERR_MODULE_NOT_FOUND',
+    runnerError: Error: RunnerError
+        at reviveInvokeError (file:///root/app/node_modules/vite/dist/node/module-runner.js:476:64)
+        at Object.invoke (file:///root/app/node_modules/vite/dist/node/module-runner.js:549:11)
+        at ModuleRunner.getModuleInformation (file:///root/app/node_modules/vite/dist/node/module-runner.js:1086:7)
+        at request (file:///root/app/node_modules/vite/dist/node/module-runner.js:1103:83)
+        at /root/app/src/components/ui/sonner.tsx:3:1
+        at ESModulesEvaluator.runInlinedModule (file:///root/app/node_modules/vite/dist/node/module-runner.js:913:3)
+        at ModuleRunner.directRequest (file:///root/app/node_modules/vite/dist/node/module-runner.js:1146:59)
+        at ModuleRunner.cachedRequest (file:///root/app/node_modules/vite/dist/node/module-runner.js:1053:73)
+        at /root/app/src/routes/__root.tsx:4:1
+        at ESModulesEvaluator.runInlinedModule (file:///root/app/node_modules/vite/dist/node/module-runner.js:913:3)
+  },
+  status: 500,
+  statusText: undefined,
+  headers: undefined,
+  data: undefined,
+  body: undefined,
+  unhandled: true
+}
+Error: Cannot find module '@tabler/icons-react' imported from '/root/app/src/components/ui/sonner.tsx'
+    at fetchModule (file:///root/app/node_modules/vite/dist/node/chunks/config.js:34060:34)
+    ... 11 lines matching cause stack trace ...
+    at MessagePort.<anonymous> (node:internal/per_context/messageport:23:28) {
+  cause: Error: Cannot find module '@tabler/icons-react' imported from '/root/app/src/components/ui/sonner.tsx'
+      at fetchModule (file:///root/app/node_modules/vite/dist/node/chunks/config.js:34060:34)
+      at FetchableDevEnvironment.fetchModule (file:///root/app/node_modules/vite/dist/node/chunks/config.js:34912:10)
+      at FetchableDevEnvironment.fetchModule (file:///root/app/node_modules/nitro/dist/vite.mjs:196:16)
+      at fetchModule (file:///root/app/node_modules/vite/dist/node/chunks/config.js:34870:17)
+      at handleInvoke (file:///root/app/node_modules/vite/dist/node/chunks/config.js:25913:27)
+      at listenerForInvokeHandler (file:///root/app/node_modules/vite/dist/node/chunks/config.js:25968:19)
+      at listener (file:///root/app/node_modules/env-runner/dist/vite.mjs:11:89)
+      at NodeWorkerEnvRunner._handleMessage (file:///root/app/node_modules/env-runner/dist/_chunks/common-base-runner.mjs:131:50)
+      at Worker.<anonymous> (file:///root/app/node_modules/env-runner/dist/_chunks/node-worker-runner.mjs:55:9)
+      at Worker.emit (node:events:524:28)
+      at MessagePort.<anonymous> (node:internal/worker:268:53)
+      at [nodejs.internal.kHybridDispatch] (node:internal/event_target:831:20)
+      at MessagePort.<anonymous> (node:internal/per_context/messageport:23:28) {
+    code: 'ERR_MODULE_NOT_FOUND',
+    runnerError: Error: RunnerError
+        at reviveInvokeError (file:///root/app/node_modules/vite/dist/node/module-runner.js:476:64)
+        at Object.invoke (file:///root/app/node_modules/vite/dist/node/module-runner.js:549:11)
+        at ModuleRunner.getModuleInformation (file:///root/app/node_modules/vite/dist/node/module-runner.js:1086:7)
+        at request (file:///root/app/node_modules/vite/dist/node/module-runner.js:1103:83)
+        at /root/app/src/components/ui/sonner.tsx:3:1
+        at ESModulesEvaluator.runInlinedModule (file:///root/app/node_modules/vite/dist/node/module-runner.js:913:3)
+        at ModuleRunner.directRequest (file:///root/app/node_modules/vite/dist/node/module-runner.js:1146:59)
+        at ModuleRunner.cachedRequest (file:///root/app/node_modules/vite/dist/node/module-runner.js:1053:73)
+        at /root/app/src/routes/__root.tsx:4:1
+        at ESModulesEvaluator.runInlinedModule (file:///root/app/node_modules/vite/dist/node/module-runner.js:913:3)
+  },
+  status: 500,
+  statusText: undefined,
+  headers: undefined,
+  data: undefined,
+  body: undefined,
+  unhandled: true
+}
